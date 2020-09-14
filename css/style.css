@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 1.35rem;
+  color: #d93525 !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.nav-link:hover {
+  color: #4684d1 !important;
+}
+
+.active .nav-link {
+  color: #4684d1 !important;
+}
+
+.menu-right-btn {
+  padding: 10px 46px;
+  margin-right: 4%;
+  color: #fff;
+  background-color: #d93525;
+  border: none !important;
+  border-radius: 15px;
+  transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+  color: #fff;
+  background-color: #b12316;
+}
+
+/* Background Main */
+
+.site-content {
+  background: url("/assets/bg2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site-title,
+.site-desc {
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+
+.site-desc {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+#more-info {
+  border: none !important;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  width: 180px;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  background-color: #4684d1;
+  transition: all 300ms ease-in;
+}
+
+#more-info:hover {
+  color: #fff;
+  background-color: #31609b;
+}
+
+/* About Us */
+.about-us {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+/* Services */
+.services {
+  background: url('/assets/pattern_beanstalk.png');
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
