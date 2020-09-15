@@ -28,8 +28,9 @@ body {
 .menu-right-btn {
   padding: 10px 46px;
   margin-right: 4%;
+  font-weight: 700;
   color: #fff;
-  background-color: #d93525;
+  background-color: #D93025;
   border: none !important;
   border-radius: 15px;
   transition: all 300ms ease-in;
@@ -84,8 +85,8 @@ body {
 
 /* About Us */
 .about-us {
-  padding-top: 70px;
-  padding-bottom: 80px;
+  margin-top: 60px;
+  height: 100vh;
 }
 
 /* Services */
@@ -93,4 +94,33 @@ body {
   background: url('/assets/pattern_beanstalk.png');
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+#teams {
+  background: url('/assets/source.gif') no-repeat center/cover;
+}
+
+.teams-title {
+  color: #fff;
+  font-family: "Montserrat";
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+
+#teams-info {
+  border: none !important;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  width: 180px;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  background-color: #b12316;
+  transition: all 300ms ease-in;
+}
+
+#teams-info:hover {
+  color: #fff;
+  background-color: #31609b;
 }
