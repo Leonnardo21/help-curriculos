@@ -38,17 +38,21 @@
         <div class="collapse navbar-collapse"></div>
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav mr-auto">
-            <li class="navbar-item active">
-              <a href="#" class="nav-link">Home</a>
+            <li class="navbar-item">
+              <a href="/" class="nav-link">Home</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="nav-link">Sobre nós</a>
+              <a
+                href="#about-us"
+                class="nav-link scrollSuave"
+                >Sobre nós</a
+              >
             </li>
             <li class="navbar-item">
-              <a href="#" class="nav-link">Serviços</a>
+              <a href="#services" class="nav-link">Serviços</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="nav-link">Equipe</a>
+              <a href="#teams" class="nav-link">Equipe</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -81,7 +85,7 @@
       </div>
 
       <!-- About Us Start -->
-      <section class="about-us">
+      <section id="about-us">
         <div class="container-fluid">
           <h2 class="text-center">Quem somos nós?</h2>
           <div class="row d-flex">
@@ -112,7 +116,7 @@
       <!-- About Us End -->
 
       <!-- Services Start -->
-      <section class="services">
+      <section id="services">
         <div class="container text-center">
           <h2>Nossos Serviços</h2>
           <div class="card-deck">
@@ -170,22 +174,26 @@
       <!-- Services End-->
 
       <!-- Teams Start -->
-        <section id="teams" class="padding-sm">
-          <div class="container-fluid p-0">
-            <div class="teams-content">
-              <div class="d-flex justify-content-center">
-                <div class="d-flex flex-column">
-                  <h2 class="teams-title text-center">Conheça nossa Equipe</h2>
-                  <div class="d-flex justify-content-center">
-                    <a id="teams-info" href="/pages/teams.html" type="submit" class="btn"
-                      >Equipe</a
-                    >
-                  </div>
+      <section id="teams" class="padding-sm">
+        <div class="container-fluid p-0">
+          <div class="teams-content">
+            <div class="d-flex justify-content-center">
+              <div class="d-flex flex-column">
+                <h2 class="teams-title text-center">Conheça nossa Equipe</h2>
+                <div class="d-flex justify-content-center">
+                  <a
+                    id="teams-info"
+                    href="/pages/teams.html"
+                    type="submit"
+                    class="btn"
+                    >Equipe</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
       <!-- Teams End -->
     </main>
 
@@ -199,6 +207,19 @@
     <script src="/js/popper.min.js"></script>
     <!-- Font Awesome -->
     <script src="/js/all.min.js"></script>
+
+    <script>
+      var $doc = $("html, body");
+      $("scrollSuave").click(function () {
+        $doc.animate(
+          {
+            scrollTop: $($.attr(this, "href")).offset().top,
+          },
+          500
+        );
+        return false;
+      });
+    </script>
 
     <!-- End Script Source Files -->
   </body>

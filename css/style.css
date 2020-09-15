@@ -84,16 +84,20 @@ body {
 }
 
 /* About Us */
-.about-us {
+#about-us {
   margin-top: 60px;
   height: 100vh;
 }
 
 /* Services */
-.services {
+#services {
   background: url('/assets/pattern_beanstalk.png');
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#services div > h2 {
+  padding-bottom: 40px;
 }
 
 #teams {
