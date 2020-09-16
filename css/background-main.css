@@ -1,0 +1,40 @@
+.site-content {
+    background: url("/assets/bg2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .site-title,
+  .site-desc {
+    color: #fff;
+    font-family: "Montserrat";
+  }
+  
+  .site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+  }
+  
+  .site-desc {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  
+  #more-info {
+    border: none !important;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    width: 180px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    background-color: #4684d1;
+    transition: all 300ms ease-in;
+  }
+  
+  #more-info:hover {
+    color: #fff;
+    background-color: #31609b;
+  }
+  

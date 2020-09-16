@@ -13,8 +13,13 @@
     <!-- Bootstrap 4.5 CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/background-main.css" />
+    <link rel="stylesheet" href="/css/about-us.css" />
+    <link rel="stylesheet" href="/css/services.css" />
     <link rel="stylesheet" href="/css/teams.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
   </head>
 
   <body>
@@ -37,16 +42,12 @@
         </button>
         <div class="collapse navbar-collapse"></div>
         <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="navbar-item">
               <a href="/" class="nav-link">Home</a>
             </li>
             <li class="navbar-item">
-              <a
-                href="#about-us"
-                class="nav-link scrollSuave"
-                >Sobre nós</a
-              >
+              <a href="#about-us" class="nav-link">Sobre nós</a>
             </li>
             <li class="navbar-item">
               <a href="#services" class="nav-link">Serviços</a>
@@ -55,11 +56,6 @@
               <a href="#teams" class="nav-link">Equipe</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn menu-right-btn border" type="submit">
-              Contato
-            </button>
-          </form>
         </div>
       </nav>
     </header>
@@ -174,7 +170,7 @@
       <!-- Services End-->
 
       <!-- Teams Start -->
-      <section id="teams" class="padding-sm">
+      <section id="teams" class="padding-lg">
         <div class="container-fluid p-0">
           <div class="teams-content">
             <div class="d-flex justify-content-center">
@@ -195,6 +191,86 @@
         </div>
       </section>
       <!-- Teams End -->
+      <!-- Footer Start -->
+      <footer
+        class="section footer-classic context-dark bg-image"
+        style="background: #2d3246"
+      >
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4">
+                <a class="brand" href="index.html"
+                  ><img
+                    class="brand-logo-light"
+                    src="images/agency/logo-inverse-140x37.png"
+                    alt=""
+                    width="140"
+                    height="37"
+                    srcset="images/agency/logo-retina-inverse-280x74.png 2x"
+                /></a>
+                <p>
+                  Somos uma agência de criação de currículos, dedicada ao melhor resultado em orientação profissional, análise de perfil e elaboração de currículos.
+                </p>
+                <!-- Rights-->
+                <p class="rights">
+                  <span>©  </span><span class="copyright-year">2020</span
+                  ><span> </span><span>Help Currículos</span><span>. </span
+                  ><span>Todos os direitos reservados.</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contato</h5>
+              <dl class="contact-list">
+                <dt>Endereço:</dt>
+                <dd> Avenida Tristão Gonçalves, 1245</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Email:</dt>
+                <dd><a target="_blank" href="mailto:#">helpcurriculos@gmail.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Telefone:</dt>
+                <dd>
+                  <a href="tel:#">(xx) xxxx-xxxx</a> <span>or</span>
+                  <a href="tel:#">(xx) xxxx-xxxx</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="#about-us">Sobre nós</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#teams">Equipe</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col">
+            <a class="social-inner" href="#"
+              ><span class="icon mdi mdi-facebook"></span
+              ><span>Facebook</span></a
+            >
+          </div>
+          <div class="col">
+            <a class="social-inner" href="#"
+              ><span class="icon mdi mdi-instagram"></span
+              ><span>instagram</span></a
+            >
+          </div>
+          <div class="col">
+            <a class="social-inner" href="#"
+              ><span class="icon mdi mdi-youtube-play"></span
+              ><span>google</span></a
+            >
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
     </main>
 
     <!-- Script Source Files -->
