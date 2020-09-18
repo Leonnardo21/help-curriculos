@@ -200,17 +200,20 @@
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
               <div class="pr-xl-4">
-                <a class="brand" href="index.html"
-                  ><img
-                    class="brand-logo-light"
-                    src="images/agency/logo-inverse-140x37.png"
-                    alt=""
-                    width="140"
-                    height="37"
-                    srcset="images/agency/logo-retina-inverse-280x74.png 2x"
-                /></a>
+                <div id="logo-footer">
+                  <a class="brand" href="/index.html"
+                    ><img
+                      class="brand-logo-light img-responsive"
+                      src="/assets/logo.jpg"
+                      alt="Logo Help Currículos"
+                      width="140"
+                      height="37"
+                  /></a>
+                </div>
                 <p>
-                  Somos uma agência de criação de currículos, dedicada ao melhor resultado em orientação profissional, análise de perfil e elaboração de currículos.
+                  Somos uma agência de criação de currículos, dedicada ao melhor
+                  resultado em orientação profissional, análise de perfil e
+                  elaboração de currículos.
                 </p>
                 <!-- Rights-->
                 <p class="rights">
@@ -224,11 +227,15 @@
               <h5>Contato</h5>
               <dl class="contact-list">
                 <dt>Endereço:</dt>
-                <dd> Avenida Tristão Gonçalves, 1245</dd>
+                <dd>Avenida Tristão Gonçalves, 1245</dd>
               </dl>
               <dl class="contact-list">
                 <dt>Email:</dt>
-                <dd><a target="_blank" href="mailto:#">helpcurriculos@gmail.com</a></dd>
+                <dd>
+                  <a target="_blank" href="mailto:#"
+                    >helpcurriculos@gmail.com</a
+                  >
+                </dd>
               </dl>
               <dl class="contact-list">
                 <dt>Telefone:</dt>
@@ -283,20 +290,6 @@
     <script src="/js/popper.min.js"></script>
     <!-- Font Awesome -->
     <script src="/js/all.min.js"></script>
-
-    <script>
-      var $doc = $("html, body");
-      $("scrollSuave").click(function () {
-        $doc.animate(
-          {
-            scrollTop: $($.attr(this, "href")).offset().top,
-          },
-          500
-        );
-        return false;
-      });
-    </script>
-
     <!-- End Script Source Files -->
   </body>
 </html>

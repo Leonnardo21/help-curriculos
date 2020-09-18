@@ -2,6 +2,11 @@ footer {
     padding-top: 20px;
 }
 
+#logo-footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
 }
