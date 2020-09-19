@@ -13,8 +13,13 @@
     <!-- Bootstrap 4.5 CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/background-main.css" />
+    <link rel="stylesheet" href="/css/about-us.css" />
+    <link rel="stylesheet" href="/css/services.css" />
     <link rel="stylesheet" href="/css/teams.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
   </head>
 
   <body>
@@ -37,29 +42,23 @@
         </button>
         <div class="collapse navbar-collapse"></div>
         <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="navbar-item">
               <a href="/" class="nav-link">Home</a>
             </li>
             <li class="navbar-item">
-              <a
-                href="#about-us"
-                class="nav-link scrollSuave"
-                >Sobre nós</a
-              >
+              <a href="#about-us" class="nav-link">Sobre nós</a>
             </li>
             <li class="navbar-item">
               <a href="#services" class="nav-link">Serviços</a>
             </li>
             <li class="navbar-item">
-              <a href="#teams" class="nav-link">Equipe</a>
+              <a href="/pages/teams.html" class="nav-link">Equipe</a>
+            </li>
+            <li class="navbar-item">
+              <a href="/pages/contato.html" class="nav-link">Contato</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn menu-right-btn border" type="submit">
-              Contato
-            </button>
-          </form>
         </div>
       </nav>
     </header>
@@ -128,12 +127,11 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Elaboração de Currículo</h5>
+                <h4 class="card-title"><a href="#">Elaboração de Currículo</a></h4>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Elabore um currúculo rápido,fácil e atualizado com a ajuda dos nosso modelos.
                 </p>
+                <h5></h5>
               </div>
             </div>
             <!-- Card 2 -->
@@ -144,7 +142,7 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Orientação Profissional</h5>
+                <h4 class="card-title"><a href="#">Orientação Profissional</a></h4>
                 <p class="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
@@ -160,7 +158,7 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Análise de Perfil</h5>
+                <h4 class="card-title"><a href="#">Análise de Perfil</a></h4>
                 <p class="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
@@ -174,7 +172,7 @@
       <!-- Services End-->
 
       <!-- Teams Start -->
-      <section id="teams" class="padding-sm">
+      <section id="teams" class="padding-lg">
         <div class="container-fluid p-0">
           <div class="teams-content">
             <div class="d-flex justify-content-center">
@@ -195,6 +193,87 @@
         </div>
       </section>
       <!-- Teams End -->
+      <!-- Footer Start -->
+      <footer
+        class="section footer-classic context-dark bg-image"
+        style="background: #2d3246"
+      >
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4">
+                <div id="logo-footer">
+                  <a class="brand" href="/index.html"
+                    ><img
+                      class="brand-logo-light img-responsive"
+                      src="/assets/logo.jpg"
+                      alt="Logo Help Currículos"
+                      width="140"
+                      height="37"
+                  /></a>
+                </div>
+                <p>
+                  Somos uma agência de criação de currículos, dedicada ao melhor
+                  resultado em orientação profissional, análise de perfil e
+                  elaboração de currículos.
+                </p>
+                <!-- Rights-->
+                <p class="rights">
+                  <span>©  </span><span class="copyright-year">2020</span
+                  ><span> </span><span>Help Currículos</span><span>. </span
+                  ><span>Todos os direitos reservados.</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contato</h5>
+              <dl class="contact-list">
+                <dt>Endereço:</dt>
+                <dd>Avenida Tristão Gonçalves, 1245</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Email:</dt>
+                <dd>
+                  <a target="_blank" href="mailto:#"
+                    >helpcurriculos@gmail.com</a
+                  >
+                </dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Telefone:</dt>
+                <dd>
+                  <a href="tel:#">(xx) xxxx-xxxx</a> <span>or</span>
+                  <a href="tel:#">(xx) xxxx-xxxx</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="#about-us">Sobre nós</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#teams">Equipe</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col">
+            <a class="social-inner" href="#"
+              ><span class="icon mdi mdi-facebook"></span
+              ><span>Facebook</span></a
+            >
+          </div>
+          <div class="col">
+            <a class="social-inner" href="#"
+              ><span class="icon mdi mdi-instagram"></span
+              ><span>instagram</span></a
+            >
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
     </main>
 
     <!-- Script Source Files -->
@@ -207,20 +286,6 @@
     <script src="/js/popper.min.js"></script>
     <!-- Font Awesome -->
     <script src="/js/all.min.js"></script>
-
-    <script>
-      var $doc = $("html, body");
-      $("scrollSuave").click(function () {
-        $doc.animate(
-          {
-            scrollTop: $($.attr(this, "href")).offset().top,
-          },
-          500
-        );
-        return false;
-      });
-    </script>
-
     <!-- End Script Source Files -->
   </body>
 </html>
