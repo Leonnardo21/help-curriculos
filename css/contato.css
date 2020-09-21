@@ -1,64 +1,107 @@
 body {
-    padding: 0;
-    margin: 0;
-    background: url("/assets/congruent_outline.png");
+  padding: 0;
+  margin: 0;
+  background: url("/assets/congruent_outline.png");
 }
 
 form {
-    /* Centralizar o formulário na pagina */
-    margin: 0 auto;
-    width: 400px;
-    /* Ver o esboço do formulário */
-    padding: 3em;
-    border: 3px solid #CCC;
-    border-radius: 1.5em;
-  }
-  
-  form div + div {
-    margin-top: 1em;
-  }
-  
-  label {
-    width: 90px;
-    
-  }
-  
-  input, textarea {
-    /* 
+  /* Centralizar o formulário na pagina */
+  margin: 50px auto;
+  width: 350px;
+  /* Ver o esboço do formulário */
+  padding: 3em;
+  border: 3px solid #ccc;
+  border-radius: 1.5em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  width: 90px;
+}
+
+input,
+textarea {
+  /* 
   Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
        Por padrão, as áreas de texto possuem a mesma fonte */
-    font: 1em sans-serif;
-  
-    /* Para dar o mesmo tamanho a todos os campos de texto*/
-    width: 300px;
-    box-sizing: border-box;
-  
-    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
-    border: 2px solid #999;
-  }
-  
-  input:focus, textarea:focus {
-    border-color: #ffffff;
-  }
-  
-  textarea {
-    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
-    vertical-align: top;
-  
-    /* Para dar espaço suficiente para digitar algum texto */
-    height: 5em;
-  }
-  
-  button {
-    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
-       entre os rótulos e seus campos de texto*/
-    margin-left: .5em;
-  }
-  .text-field {
-      color: #ffffff;
-  }
+  font: 1em sans-serif;
 
-  .title-form{
-      color: #ffffff;
-      text-align: center;
-  }
+  /* Para dar o mesmo tamanho a todos os campos de texto*/
+  width: 240px;
+  box-sizing: border-box;
+
+  /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+  border: 2px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ffffff;
+}
+
+textarea {
+  /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 10rem;
+
+  /* Estilização do textarea */
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+/* Estilização de botões do formulário */
+.action-form {
+  display: flex;
+  justify-content: center;
+}
+
+#send {
+  border: 1px solid #26a65b;
+  border-radius: 8px;
+  padding: 10px;
+  color: #26a65b;
+  background-color: transparent;
+}
+
+#send:hover {
+  background-color: #26a65b;
+  color: #fff;
+  cursor: pointer;
+}
+
+#button-clear {
+  border: 1px solid #d91e18;
+  border-radius: 8px;
+  padding: 10px;
+  color: #d91e18;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+#button-clear:hover {
+  background-color: #d91e18;
+  color: #fff;
+  cursor: pointer;
+}
+
+.text-field {
+  color: #ffffff;
+}
+
+.title-form {
+  color: #ffffff;
+  text-align: center;
+}
+
+.input-style {
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  padding: 0 10px;
+}

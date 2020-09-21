@@ -1,9 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+
 footer {
     padding-top: 20px;
+    width: 100%;
+    font-size: 13px;
 }
 
 #logo-footer {
-    text-align: center;
+    text-align: left;
     padding-bottom: 20px;
 }
 
@@ -15,8 +22,8 @@ footer {
     color: #ffffff;
 }
 .nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-list li a:hover:before {
@@ -46,7 +53,7 @@ ul, ol {
 }
 .nav-list li a:before {
     content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
+    font: 400 20px/1 "Material Design Icons";
     color: #4d6de6;
     display: inline-block;
     vertical-align: baseline;

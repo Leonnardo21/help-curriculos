@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("/assets/congruent_outline.png");
+  }
+
+.F {
+    background-color: #ffffff;
+    height:100%;
+    width:100%;
+    border: double 2px;
+    border-color: cadetblue;
+
+  }
