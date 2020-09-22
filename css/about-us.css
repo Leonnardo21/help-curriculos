@@ -1,4 +1,22 @@
 #about-us {
-    margin-top: 60px;
-    height: 100vh;
-  }
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: 100vh;
+}
+
+#about-us-container {
+  height: 100vh;
+  padding: 20px auto;
+  background-color: #414141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-content {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 5px 2px;
+}

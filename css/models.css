@@ -1,17 +1,28 @@
 #models {
-    background: url('/assets/pattern_beanstalk.png');
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  #services div > h2 {
-    padding-bottom: 40px;
-  }
+  background: url("/assets/pattern_beanstalk.png");
+  padding-bottom: 50px;
+}
 
-  .card-body h4 a {
-    text-decoration: none;
-    color: #2a2a2a;
-  }
-  .card-body h4 a:hover {
-    color: #337ab7;
-  }
+.card-body h4 a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.card-body h4 a:hover {
+  color: #337ab7;
+}
+
+#models a{
+  color: #fff;
+}
+
+.download {
+  background-color: #d93025;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.download:hover{
+  background-color: #b6241a;
+}
