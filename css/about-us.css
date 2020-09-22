@@ -1,4 +1,30 @@
+header {
+  margin-bottom: 15px !important;
+}
+footer {
+  margin-top: 15px !important;
+}
+
+body {
+  background-color: #414141;
+}
+
 #about-us {
-    margin-top: 60px;
-    height: 100vh;
-  }
+  margin-top: 60px;
+  height: 80vh;
+}
+
+#about-us-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-content {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 5px 2px;
+}
