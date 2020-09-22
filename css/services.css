@@ -12,6 +12,20 @@
     text-decoration: none;
     color: #2a2a2a;
   }
+  
   .card-body h4 a:hover {
     color: #337ab7;
+  }
+  
+  .form-button {
+    background-color: #396BA9;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+  }
+  
+  .form-button:hover{
+    background-color: #396BA9;
+    cursor:pointer;
   }

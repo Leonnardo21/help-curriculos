@@ -11,6 +11,10 @@
   color: #337ab7;
 }
 
+.card-title {
+  padding-bottom: 40px;
+}
+
 #models a{
   color: #fff;
 }
