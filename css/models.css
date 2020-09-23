@@ -3,24 +3,17 @@
   padding-bottom: 50px;
 }
 
-.card-body h4 a {
-  text-decoration: none;
-  color: #2a2a2a;
-}
-.card-body h4 a:hover {
-  color: #337ab7;
-}
-
 .card-title {
   padding-bottom: 40px;
 }
 
 #models a{
   color: #fff;
+  text-decoration: none;
 }
 
 .download {
-  background-color: #d93025;
+  background-color: var(--color-red-primary);
   padding: 10px 30px;
   border: none;
   border-radius: 25px;
@@ -28,5 +21,5 @@
 }
 
 .download:hover{
-  background-color: #b6241a;
+  background-color: var(--color-red-secondary);
 }

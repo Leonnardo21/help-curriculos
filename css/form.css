@@ -5,9 +5,9 @@ body {
   }
 
 .F {
-    background-color: #ffffff;
+    background-color: var(--color-white);
     width:100%;
     border: double 2px;
-    border-color: cadetblue;
+    border-color: var(--color-blue-primary);
 
   }

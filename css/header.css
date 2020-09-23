@@ -1,7 +1,7 @@
 .navbar-brand {
   font-family: "Montserrat";
   font-size: 1.35rem;
-  color: #d93525 !important;
+  color: var(--color-red-primary) !important;
 }
 
 .nav-link {
@@ -10,9 +10,5 @@
 }
 
 .nav-link:hover {
-  color: #4684d1 !important;
-}
-
-.active .nav-link {
-  color: #4684d1 !important;
+  color: var(--color-blue-primary) !important;
 }

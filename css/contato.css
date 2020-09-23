@@ -34,12 +34,12 @@ textarea {
   box-sizing: border-box;
 
   /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
-  border: 2px solid #999;
+  border: 2px solid var(--color-grey);
 }
 
 input:focus,
 textarea:focus {
-  border-color: #ffffff;
+  border-color: var(--color-white);
 }
 
 textarea {
@@ -62,40 +62,40 @@ textarea {
 }
 
 #send {
-  border: 1px solid #26a65b;
+  border: 1px solid var(--color-green);
   border-radius: 8px;
   padding: 10px;
-  color: #26a65b;
+  color: var(--color-green);
   background-color: transparent;
 }
 
 #send:hover {
-  background-color: #26a65b;
-  color: #fff;
+  background-color: var(--color-green);
+  color: var(--color-white);
   cursor: pointer;
 }
 
 #button-clear {
-  border: 1px solid #d91e18;
+  border: 1px solid var(--color-red-primary);
   border-radius: 8px;
   padding: 10px;
-  color: #d91e18;
+  color: var(--color-red-primary);
   margin-left: 20px;
   background-color: transparent;
 }
 
 #button-clear:hover {
-  background-color: #d91e18;
-  color: #fff;
+  background-color: var(--color-red-primary);
+  color: var(--color-white);
   cursor: pointer;
 }
 
 .text-field {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .title-form {
-  color: #ffffff;
+  color: var(--color-white);
   text-align: center;
 }
 

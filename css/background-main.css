@@ -6,7 +6,7 @@
   
   .site-title,
   .site-desc {
-    color: #fff;
+    color: var(--color-white);
     font-family: "Montserrat";
   }
   
@@ -25,16 +25,16 @@
     border: none !important;
     border-radius: 15px;
     padding: 10px;
-    color: #fff;
+    color: var(--color-white);
     width: 180px;
     margin-top: 5%;
     margin-bottom: 20%;
-    background-color: #4684d1;
+    background-color: var(--color-blue-primary);
     transition: all 300ms ease-in;
   }
   
   #more-info:hover {
-    color: #fff;
-    background-color: #31609b;
+    color: var(--color-white);
+    background-color: var(--color-blue-secondary);
   }
   

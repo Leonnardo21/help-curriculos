@@ -1,5 +1,5 @@
 .row.heading h2 {
-  color: #fff;
+  color: var(--color-white);
   font-size: 52.52px;
   line-height: 95px;
   font-weight: 400;
@@ -26,7 +26,7 @@ ul {
   padding-top: 55px;
 }
 .practice-area .inner {
-  border: 1px solid #999999;
+  border: 1px solid var(--color-grey);
   text-align: center;
   margin-bottom: 28px;
   padding: 40px 25px;
@@ -60,7 +60,7 @@ ul {
 }
 
 .teams-title {
-  color: #fff;
+  color: var(--color-white);
   font-family: "Montserrat";
   margin-top: 30%;
   margin-bottom: 6%;
@@ -71,26 +71,28 @@ ul {
   border: none !important;
   border-radius: 15px;
   padding: 10px;
-  color: #fff;
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-weight: 700;
   width: 180px;
   margin-top: 5%;
   margin-bottom: 20%;
-  background-color: #b12316;
+  background-color: var(--color-red-primary);
   transition: all 300ms ease-in;
 }
 
 #teams-info:hover {
-  color: #fff;
-  background-color: #31609b;
+  color: var(--color-white);
+  background-color: var(--color-red-secondary);
 }
 
 .teams .cnt-block {
   float: left;
   width: 100%;
-  background: #fff;
+  background: var(--color-white);
   padding: 30px 20px;
   text-align: center;
-  border: 2px solid #d5d5d5;
+  border: 2px solid var(--color-grey);
   margin: 0 0 28px;
 }
 .teams .cnt-block figure {
@@ -106,7 +108,7 @@ ul {
   border-radius: 100%;
 }
 .teams .cnt-block h3 {
-  color: #2a2a2a;
+  color: var(--text-grey-color);
   font-size: 20px;
   font-weight: 500;
   padding: 6px 0;
@@ -114,10 +116,10 @@ ul {
 }
 .teams .cnt-block h3 a {
   text-decoration: none;
-  color: #2a2a2a;
+  color: var(--text-grey-color);
 }
 .teams .cnt-block h3 a:hover {
-  color: #337ab7;
+  color: var(--color-blue-secondary);
 }
 .teams .cnt-block p {
   color: #2a2a2a;

@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
 
+:root {
+  --color-white: #fff;
+  --color-black: #fff;
+  --color-green: #26a65b;
+  --color-blue-primary: #4684d1;
+  --color-blue-secondary: #31609b;
+  --color-red-primary: #d93525;
+  --color-red-secondary: #b6241a;
+  --color-grey: #414141;
+
+  --text-grey-color: #2a2a2a;
+}
+
 body {
   margin: 0;
   padding: 0;
