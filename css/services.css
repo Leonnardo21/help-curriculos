@@ -20,3 +20,8 @@
   background-color: var(--color-blue-secondary);
   cursor: pointer;
 }
+
+.form-button a {
+  color: var(--color-white);
+  text-decoration: none;
+}
