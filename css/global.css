@@ -18,3 +18,16 @@ body {
   padding: 0;
   font-family: "Roboto";
 }
+
+#contactButton {
+  background-color: var(--color-red-primary);
+  color: var(--color-white);
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+#contactButton:hover{
+  background-color: var(--color-red-secondary);
+
+}
