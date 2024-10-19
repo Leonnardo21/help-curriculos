@@ -1,19 +1,9 @@
-# Help Currículos
+<div id="badges">
+  <img src="https://img.shields.io/badge/License-dark?logo=License&logoColor=white&style=for-the-badge" alt="License Badge"/>
+</div>
+<h1>Alien Skin Exposure For Mac OS</h1>
+<p><img src="https://repository-images.githubusercontent.com/295483791/b824928a-e30c-4402-9886-831d6329ef43"/></p>
 
-<p> Site é apenas para uma demostração do Projeto integrador da minha turma, ele foi desenvolvido utilizando as tecnologias web</p>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-fff?style=flat&logo=JavaScript&logoColor=#fff)
-
-![HTML5](https://img.shields.io/badge/HTML5-fff?style=flat&logo=HTML5&logoColor=#fff)
-
-![CSS3](https://img.shields.io/badge/CSS3-fff?style=flat&logo=CSS3&logoColor=blue)
-
-![Bootstrap 4](https://img.shields.io/badge/Bootstrap4-fff?style=flat&logo=Bootstrap&logoColor=purple)
-
-## Testando
-
-<p>Para acessar e testar o site basta acessar o link abaixo</p>
-
-<blockquote>
-    https://help-curriculos.vercel.app
-</blockquote>
+<p><strong>System Requirements: macOS 10.15 and later</p>
+Imagenomic Portraiture 3.0.2 | <a href="">Download</a>
+</h1>
